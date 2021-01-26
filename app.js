@@ -23,8 +23,10 @@ function myFunction() {
 
   //Finish the function
   // Get the value of the input field with id="teamname"
-  
+  x = document.getElementbyId("teamname").value;
 
+  text = "Your team name idea is " + x;
 
+  document.getElementbyId("formbtn").innerHTML = text;
 
 }
