@@ -4,14 +4,14 @@ const switcher = document.querySelector('.btn');
 
 // button event listener
 switcher.addEventListener('click', function() {
-    document.body.classList.toggle()
+    document.body.classList.toggle('dark-theme')
 
     var className = document.body.className;
-    if(className == ) {
-        this.textContent = ;
+    if(className == 'light-theme') {
+        this.textContent = "Dark";
     }
     else {
-        this.textContent = ;
+        this.textContent = "Light";
     }
 
 });
@@ -26,5 +26,5 @@ function myFunction() {
   
 
 
-  
+
 }
