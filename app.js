@@ -7,7 +7,7 @@ switcher.addEventListener('click', function() {
     document.body.classList.toggle('dark-theme')
 
     var className = document.body.className;
-    if(className == 'light-theme') {
+    if(className == "light-theme") {
         this.textContent = "Dark";
     }
     else {
@@ -21,12 +21,12 @@ switcher.addEventListener('click', function() {
 function myFunction() {
   var x, text;
 
-  //Finish the function
+  //Finish the function below
+
   // Get the value of the input field with id="teamname"
-  x = document.getElementbyId("teamname").value;
+  x = document.getElementById("teamname").value;
 
   text = "Your team name idea is " + x;
 
-  document.getElementbyId("formbtn").innerHTML = text;
-
-}
+  document.getElementById("formbtn").innerHTML = text;
+} 
